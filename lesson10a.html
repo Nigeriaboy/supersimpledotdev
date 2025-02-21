@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container {
+                width: 200px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-bottom: 8px;
+                box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+                display: inline-block;
+                margin-left: 20px;
+            }
+
+            .profile-pic {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: right;
+                border-bottom: solid rgb(189, 10, 40) 1px;
+
+            }
+
+            .name p  {
+                font-weight: bold;
+                margin: 0;
+                margin-top: 7px;
+                margin-bottom: 5px;
+            }
+
+            .friends p {
+                display: inline-block;
+                margin-top: 0;
+                margin-left: 5px;
+                font-size: 15px;
+                color: rgb(161, 160, 160);
+            }
+
+            .friends img {
+                border-radius: 50px;
+                width: 30px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            button {
+                background-color: rgb(37, 94, 218);
+                color: white;
+                border: none;
+                padding: 7px 12px;
+                border-radius: 2px;
+            }
+
+            .name , .add-friend , .friends {
+                margin-left: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img class="profile-pic" src="youtube\thumbnails\thumbnail-1.webp">
+            <div class="name">
+                <p>Oliver</p>
+            </div>
+            <div class="friends">
+                <img src="youtube/thumbnails/channel-1.jpeg" alt="">
+                <p>2 mutual friends</p>
+            </div>
+            <div class="add-friend">
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="profile-pic" src="youtube\thumbnails\thumbnail-2.webp">
+            <div class="name">
+                <p>Mimi</p>
+            </div>
+            <div class="friends">
+                <img src="youtube/thumbnails/channel-1.jpeg" alt="">
+                <p>2 mutual friends</p>
+            </div>
+            <div class="add-friend">
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="profile-pic" src="youtube\thumbnails\channel-2.jpeg">
+            <div class="name">
+                <p>Rex</p>
+            </div>
+            <div class="friends">
+                <img src="youtube/thumbnails/channel-1.jpeg" alt="">
+                <p>2 mutual friends</p>
+            </div>
+            <div class="add-friend">
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>

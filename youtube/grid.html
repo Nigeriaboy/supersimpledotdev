@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+        <style>
+            .a {
+                background-color: lightblue;
+            }
+            .b {
+                background-color: lightpink;
+            }
+
+            .c {
+                background-color: lightgrey;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 40px;
+            }
+
+            .container div {
+                height: 200px;
+
+            }
+
+            body {
+                margin-left: 0px;
+                margin-right: 0;
+                padding-bottom: 1000px;
+                padding-top: 500px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="a">one fr</div>
+            <div class="b">one fr</div>
+            <div class="c">one fr</div>
+            <div class="b">one fr</div>
+            <div class="c">one fr</div>
+            <div class="a">one fr</div>
+            
+        </div>
+    </body>
+</html>
