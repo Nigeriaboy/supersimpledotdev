@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {
+                font-family: Arial;
+                font-weight: bold;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 250px;
+                justify-content: space-between;
+            }
 
+            .container button {
+                background-color: rgb(104, 155, 250);
+                color: white;
+                border: none;
+                padding: 5px 12px 5px;
+                border-radius: 20px;
+            }
+
+            .container2 {
+                display: flex;
+                align-items: center;
+                width: 700px;
+                justify-content: space-between;
+                background-color: rgb(91, 2, 109);
+                color: white;
+                padding-left: 10px ;
+                padding-right: 10px;
+            }
+            
+            .container2 input {
+                width: 400px;
+                flex: 1;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+                border-radius: 20px;
+                margin-left: 70px;
+                margin-right: 70px;
+                border: none;
+                background-color: rgb(255, 255, 255);
+                outline:none;
+            }
+
+            .container2 button {
+                padding: 7px 15px 5px;
+                background-color: rgb(91, 2, 109);
+                border: solid 1px white;
+                color: wheat;
+                transition: background-color 0.3s;
+            }
+
+            .container2 button:hover {
+                color:  rgb(91, 2, 109);
+                background-color: white;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
             <p>Home</p>
             <button>14</button>
+        </div>
+
+        <div class="container">
+            <p>Notification</p>
+            <button>3</button>
+        </div>        <div class="container">
+            <p>Messages</p>
+            <button>5</button>
+        </div>
+
+        <div class="container2">
+            <p>Home</p>
+            <input type="text" placeholder="Search">
+            <button>Download</button>
         </div>
     </body>
 </html>

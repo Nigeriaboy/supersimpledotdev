@@ -1,0 +1,16 @@
+.container {
+	width: 550px;
+	margin-left: 50px;
+	background-color: whitesmoke;
+}
+
+span {
+	width: 10px;
+	height: 5px;
+	background-color: black;
+	color: white;
+}
+
+.container p {
+	background-color: red;
+}
