@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                padding-bottom: 5000px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .container {
+                position: relative;
+            }
+
+            img {
+                height: 400px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .header {
+                position: absolute;
+                top: 10px;
+                left: 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100p;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+            }
+
+            .header h1 {
+                margin-left: 50px;
+            }
+
+            .header ul {
+                list-style: none;
+                margin-right: 60px;
+                display: flex;
+            }
+
+            .header ul li {
+                display: inline-block;
+                padding-bottom: 5px;
+            }
+
+            .list-items {
+                padding: 10px;
+            }
+
+            .line {
+                height: 1px;
+            }
+
+            .line:hover {
+                background-color: rgb(119, 61, 38);
+            }
+
+            .middle-text {
+                width: 100%;
+                position: absolute;
+                top: 40%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-weight: lighter;
+            }
+
+            .middle-text h1, .middle-text h5, .middle-text h4 {
+                margin: 10px;
+            }
+
+            .middle-text h5 {
+                width: 620px;
+                text-align: center;
+                line-height: 20px;
+                font-weight: lighter;
+                padding: 0px;
+                font-size: 15px;
+            }
+
+            .middle-text h4 {
+                border: solid 1px;
+                padding: 10px 15px 10px 15px;
+                font-weight: lighter;
+                border-radius: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="event-webpage.png" alt="">
+            <div class="header">
+                <h1>Encore</h1>
+                <ul>
+                    <div class="list-items">
+                        <li>HOME</li>
+                        <div class="line"></div>
+                    </div>
+                    <div class="list-items">
+                        <li>EVENTS</li>
+                        <div class="line"></div>
+                    </div>
+                    <div class="list-items">
+                        <li>SCHEDULE</li>
+                        <div class="line"></div>
+                    </div>
+                    <div class="list-items">
+                        <li>VENUE</li>
+                        <div class="line"></div>
+                    </div>
+                    <div class="list-items">
+                        <li>REGISTER</li>
+                        <div class="line"></div>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="middle-text">
+                <h1 style="font-size: 30px;">Dedicated to AltCampus' friends and family</h1>
+                <h5 >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repudiandae alias at fugit officia facere</h5>
+                <h4>Register Now</h4>
+            </div>
+        </div>
+    </body>
+</html>

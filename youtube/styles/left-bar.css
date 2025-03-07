@@ -1,0 +1,32 @@
+.left-bar {
+    position: fixed;
+    width:72px;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    font-size: 10px;
+    z-index: 200;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-bar img {
+    width: 23px;
+    margin-bottom: 7px;
+}
+
+.side-bar-link {
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.side-bar-link:hover {
+    background-color: rgb(207, 203, 203);
+}
+
+.side-bar-link div {
+    font-weight: lighter;
+}
